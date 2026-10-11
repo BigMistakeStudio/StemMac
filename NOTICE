@@ -1,0 +1,14 @@
+StemMac
+Copyright 2026 Big Mistake Studio
+
+StemMac is a native SwiftUI interface using the StemDeck Python audio backend.
+Original project: https://github.com/stemdeckapp/stemdeck
+Original project contributors retain copyright to their work.
+StemDeck is distributed under the Apache License, Version 2.0.
+
+The Swift interface and macOS runtime integration in this repository are
+provided by Big Mistake Studio under the Apache License, Version 2.0.
+
+Runtime components (Python, uv, FFmpeg, Chromaprint, QuickJS, yt-dlp) and
+machine-learning models are downloaded separately and retain their respective
+licenses. Their source code and binaries are not included in this repository.

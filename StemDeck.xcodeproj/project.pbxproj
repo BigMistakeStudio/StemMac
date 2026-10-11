@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1000001 /* StemDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* StemDeckApp.swift */; };
+		B1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002 /* ContentView.swift */; };
+		B1000003 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003 /* ImportView.swift */; };
+		B1000004 /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004 /* StudioView.swift */; };
+		B1000005 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000005 /* WaveformView.swift */; };
+		B1000006 /* StemTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006 /* StemTrackView.swift */; };
+		B1000007 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007 /* ProcessingView.swift */; };
+		B1000008 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000008 /* LibraryView.swift */; };
+		B1000009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000009 /* SettingsView.swift */; };
+		B1000010 /* UpdaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000010 /* UpdaterView.swift */; };
+		B1000011 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000011 /* Job.swift */; };
+		B1000012 /* Stem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000012 /* Stem.swift */; };
+		B1000013 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000013 /* AppState.swift */; };
+		B1000014 /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000014 /* BackendService.swift */; };
+		B1000015 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000015 /* AudioPlayerService.swift */; };
+		B1000016 /* UpdaterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000016 /* UpdaterService.swift */; };
+		B1000017 /* PythonRuntimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000017 /* PythonRuntimeService.swift */; };
+		B1000018 /* SSEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000018 /* SSEClient.swift */; };
+		B1000020 /* VUMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000020 /* VUMeterView.swift */; };
+		B1000021 /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000021 /* TransportView.swift */; };
+		B1000022 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000022 /* SetupView.swift */; };
+		B1000023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2000023 /* Assets.xcassets */; };
+		B1000026 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000026 /* AppLogger.swift */; };
+		B1000027 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000027 /* LogsView.swift */; };
+		B1000028 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000028 /* ExportService.swift */; };
+		B1000029 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000029 /* ConverterView.swift */; };
+		B1000030 /* DiagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000030 /* DiagView.swift */; };
+		B1000031 /* MixExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000031 /* MixExportService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2000001 /* StemDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemDeckApp.swift; sourceTree = "<group>"; };
+		B2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2000003 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		B2000004 /* StudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioView.swift; sourceTree = "<group>"; };
+		B2000005 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		B2000006 /* StemTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemTrackView.swift; sourceTree = "<group>"; };
+		B2000007 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		B2000008 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B2000009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B2000010 /* UpdaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterView.swift; sourceTree = "<group>"; };
+		B2000011 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		B2000012 /* Stem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem.swift; sourceTree = "<group>"; };
+		B2000013 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B2000014 /* BackendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		B2000015 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		B2000016 /* UpdaterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterService.swift; sourceTree = "<group>"; };
+		B2000017 /* PythonRuntimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonRuntimeService.swift; sourceTree = "<group>"; };
+		B2000018 /* SSEClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEClient.swift; sourceTree = "<group>"; };
+		B2000020 /* VUMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUMeterView.swift; sourceTree = "<group>"; };
+		B2000021 /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
+		B2000022 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		B2000023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2000025 /* StemDeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StemDeck.entitlements; sourceTree = "<group>"; };
+		B2000026 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		B2000027 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		B2000028 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		B2000029 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
+		B2000030 /* DiagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagView.swift; sourceTree = "<group>"; };
+		B2000031 /* MixExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixExportService.swift; sourceTree = "<group>"; };
+		B3000001 /* StemMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StemMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5000001 = {
+			isa = PBXGroup;
+			children = (
+				B5000002 /* StemDeck */,
+				B5000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5000002 /* StemDeck */ = {
+			isa = PBXGroup;
+			children = (
+				B2000001 /* StemDeckApp.swift */,
+				B2000002 /* ContentView.swift */,
+				B5000003 /* Views */,
+				B5000004 /* Models */,
+				B5000005 /* Services */,
+				B5000006 /* Components */,
+				B2000023 /* Assets.xcassets */,
+				B2000024 /* Info.plist */,
+				B2000025 /* StemDeck.entitlements */,
+			);
+			path = StemDeck;
+			sourceTree = "<group>";
+		};
+		B5000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2000003 /* ImportView.swift */,
+				B2000004 /* StudioView.swift */,
+				B2000007 /* ProcessingView.swift */,
+				B2000008 /* LibraryView.swift */,
+				B2000009 /* SettingsView.swift */,
+				B2000010 /* UpdaterView.swift */,
+				B2000022 /* SetupView.swift */,
+				B2000027 /* LogsView.swift */,
+				B2000029 /* ConverterView.swift */,
+				B2000030 /* DiagView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2000011 /* Job.swift */,
+				B2000012 /* Stem.swift */,
+				B2000013 /* AppState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2000014 /* BackendService.swift */,
+				B2000015 /* AudioPlayerService.swift */,
+				B2000016 /* UpdaterService.swift */,
+				B2000017 /* PythonRuntimeService.swift */,
+				B2000018 /* SSEClient.swift */,
+				B2000026 /* AppLogger.swift */,
+				B2000028 /* ExportService.swift */,
+				B2000031 /* MixExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5000006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2000005 /* WaveformView.swift */,
+				B2000006 /* StemTrackView.swift */,
+				B2000020 /* VUMeterView.swift */,
+				B2000021 /* TransportView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3000001 /* StemMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6000001 /* StemDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8000001 /* Build configuration list for PBXNativeTarget "StemDeck" */;
+			buildPhases = (
+				B7000001 /* Sources */,
+				B4000001 /* Frameworks */,
+				B7000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StemDeck;
+			productName = StemDeck;
+			productReference = B3000001 /* StemMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B6000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B8000002 /* Build configuration list for PBXProject "StemDeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5000001;
+			productRefGroup = B5000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6000001 /* StemDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000001 /* StemDeckApp.swift in Sources */,
+				B1000002 /* ContentView.swift in Sources */,
+				B1000003 /* ImportView.swift in Sources */,
+				B1000004 /* StudioView.swift in Sources */,
+				B1000005 /* WaveformView.swift in Sources */,
+				B1000006 /* StemTrackView.swift in Sources */,
+				B1000007 /* ProcessingView.swift in Sources */,
+				B1000008 /* LibraryView.swift in Sources */,
+				B1000009 /* SettingsView.swift in Sources */,
+				B1000010 /* UpdaterView.swift in Sources */,
+				B1000011 /* Job.swift in Sources */,
+				B1000012 /* Stem.swift in Sources */,
+				B1000013 /* AppState.swift in Sources */,
+				B1000014 /* BackendService.swift in Sources */,
+				B1000015 /* AudioPlayerService.swift in Sources */,
+				B1000016 /* UpdaterService.swift in Sources */,
+				B1000017 /* PythonRuntimeService.swift in Sources */,
+				B1000018 /* SSEClient.swift in Sources */,
+				B1000020 /* VUMeterView.swift in Sources */,
+				B1000021 /* TransportView.swift in Sources */,
+				B1000022 /* SetupView.swift in Sources */,
+				B1000026 /* AppLogger.swift in Sources */,
+				B1000027 /* LogsView.swift in Sources */,
+				B1000028 /* ExportService.swift in Sources */,
+				B1000029 /* ConverterView.swift in Sources */,
+				B1000030 /* DiagView.swift in Sources */,
+				B1000031 /* MixExportService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B8000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StemDeck/StemDeck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FR87VAA3FS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StemDeck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StemMac;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stemdmac.app;
+				PRODUCT_NAME = StemMac;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B8000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StemDeck/StemDeck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FR87VAA3FS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StemDeck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StemMac;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stemdmac.app;
+				PRODUCT_NAME = StemMac;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8000001 /* Build configuration list for PBXNativeTarget "StemDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8000005 /* Debug */,
+				B8000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8000002 /* Build configuration list for PBXProject "StemDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8000003 /* Debug */,
+				B8000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9000001 /* Project object */;
+}

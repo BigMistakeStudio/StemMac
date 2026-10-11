@@ -1,0 +1,20 @@
+# macOS and Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.dmg
+*.zip
+
+# Runtime, models and local audio
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+/jobs/
+/models/
+_sauvegarde*/
